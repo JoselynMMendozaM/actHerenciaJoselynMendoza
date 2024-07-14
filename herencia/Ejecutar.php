@@ -25,9 +25,7 @@
                         $ventas = new Ventas();
 
                         $ventas->asignarTipoContratacion("Unitario");
-                        $ventas->asignarComisionVenta(500);
-                        //atributos que hereda de la clase empleado y persona
-                        //empleado    
+                        $ventas->asignarComisionVenta(500);   
                         $ventas->asignarNombre("Joselyn");
                         $ventas->asignarApellido("Mendoza");
                         $ventas->asignarTelefono("58545652");
