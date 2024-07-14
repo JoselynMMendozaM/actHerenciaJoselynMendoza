@@ -55,12 +55,12 @@
         // Método para mostrar todos los datos 
         public function verDatos() {
             return "<br><strong>Código de empleado: </strong>" . $this->verCodigo()
-                . "<br>" . parent::verDatos() // Llama a verDatos() de la clase padre
+                . "<br>" . parent::verDatos() 
                 . "<br><strong>Nivel: </strong>" . $this->verNivelAcademico()
                 . "<br><strong>Sueldo base: </strong>" . $this->verSueldoBase()
-                . "<br><strong>Bonificación: </strong>" . $this->verbonificacion() // Atributo privado accesible dentro de la clase
+                . "<br><strong>Bonificación: </strong>" . $this->verbonificacion() 
                 . "<br><strong>IGSS: </strong>" . $this->igss
-                . "<br><strong>Sueldo liquido: </strong>" . $this->calcularSueldoLiquido();// Atributo privado accesible dentro de la clase
+                . "<br><strong>Sueldo liquido: </strong>" . $this->calcularSueldoLiquido();
         }
     }
 
