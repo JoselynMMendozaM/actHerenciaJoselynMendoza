@@ -43,4 +43,3 @@
     }
 
 ?>
-<strong></strong>
